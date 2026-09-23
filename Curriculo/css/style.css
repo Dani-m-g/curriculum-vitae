@@ -1,0 +1,48 @@
+h2 {
+    text-decoration: underline overline;
+    font-style: italic;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+header{
+    font-style: oblique;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #222222;
+}
+
+li img {
+    filter: invert(1);
+}
+
+a{
+    color: #a84604;
+}
+
+a[href="https://asciidata.itch.io/"] {
+    background-color: #a84604;
+    color: white;
+}
+
+a:hover {
+    color: #d09500;
+    background-color: white;
+}
+
+#modalContato{
+    color: white;
+    background-color: #333;
+}
+
+.item-projetos{
+    color: rgb(212, 246, 255);
+}

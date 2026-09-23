@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - Daniella Melo Galdini</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header class="header">
+    <h1 class="jersey-10-regular">Daniella Melo Galdini</h1>
+    <img src="imagens/perfil.png" alt="foto" style="width: 100px;height: 125px;">
+    <p>Desenvolvedora de jogos</p>
+  </header>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <ul>
+      <li><img src="icones/telephone.svg" alt="telefone" style="width: 15px;height: 15px;">
+        <strong>Telefone:</strong> (43) 99671-1792
+      </li>
+      <li><img src="icones/email.svg" alt="email" style="width: 15px;height: 15px;">
+        <strong>Email:</strong> daniellagaldini@gmail.com
+      </li>
+      <li><img src="icones/linkedin.svg" alt="linkedin" style="width: 15px;height: 15px;">
+        <strong>LinkedIn:</strong> <a href="#">linkedin.com/in/daniella-melo-galdini-8a51183b9/</a>
+      </li>
+      <li><img src="icones/github.svg" alt="github" style="width: 15px;height: 15px;">
+        <strong>GitHub:</strong> <a href="#">github.com/AsciiDataDev</a>
+      </li>
+      <li><img src="icones/itch.svg" alt="itch" style="width: 15px;height: 15px;">
+        <strong>Itch:</strong> <a href="https://asciidata.itch.io/" target="_blank">asciidata.itch.io/</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li><img src="icones/controller.svg" alt="jogos" style="width: 15px;height: 15px;"> Game Design: documentação
+        (GDD), Level Design, playtesting</li>
+      <li><img src="icones/godot.svg" alt="godot" style="width: 15px;height: 15px;"> Godot Engine (GDScript, C#)</li>
+      <li><img src="icones/blender.svg" alt="blender" style="width: 15px;height: 15px;"> Arte 3D e animação: Blender
+      </li>
+      <li><img src="icones/art.svg" alt="arte" style="width: 15px;height: 15px;"> Arte 2D: Aseprite, Krita, Gimp</li>
+      <li><img src="icones/audacity.svg" alt="audacity" style="width: 15px;height: 15px;"> SFX: Audacity</li>
+      <li><img src="icones/english.svg" alt="ingles" style="width: 15px;height: 15px;"> Inglês fluente</li>
+      <li><img src="icones/git.svg" alt="git" style="width: 15px;height: 15px;"> Git, GitHub, Vim</li>
+    </ul>
+  </section>
+
+  <section class="resumo">
+    <h2>Resumo</h2>
+    <p>Desenvolvedora de jogos generalista com experiência no desenvolvimento completo de jogos digitais com mecânicas
+      inovadoras e experimentais.<br>
+      Experiência principalmente com softwares <i>open-source</i> para criação de assets visuais e sonoros.</p>
+  </section>
+
+  <section class="ODS">
+    <h2>ODS que pretendo contribuir</h2>
+    <figure>
+      <img src="imagens/ods.svg" alt="ods" style="width: 160px;height: 160px;">
+      <figcaption>ODS de igualdade de gênero</figcaption>
+    </figure>
+  </section>
+
+  <section class="projetos">
+    <h2>Projetos</h2>
+    <div class="item-projetos">
+      <h3>1º Lugar na categoria de Gameplay da Game Off 2022 - Game jam</h3>
+      <p class="data"><i>Novembro de 2022</i></p>
+      <ul>
+        <li>Desenvolvimento completo de um jogo 3D em primeira pessoa em 30 dias.</li>
+        <li>Responsável por todo o desenvolvimento e criação de assets originais do jogo.</li>
+      </ul>
+    </div>
+    <div class="item-projetos">
+      <h3>1º Lugar GoedWare #7 Game jam</h3>
+      <p class="data"><i>Janeiro de 2023</i></p>
+      <ul>
+        <li>Desenvolvimento completo de um jogo 3D em primeira pessoa focado em mecânicas de movimento em 7 dias.</li>
+        <li>Responsável por todo o desenvolvimento e criação de assets originais do jogo, com exceção da trilha sonora.
+        </li>
+      </ul>
+    </div>
+    <div class="item-projetos">
+      <h3>1º Lugar UTFPR Game jam</h3>
+      <p class="data"><i>Outubro de 2025</i></p>
+      <ul>
+        <li>Desenvolvimento completo de um jogo 3D em equipe em 24 horas.</li>
+        <li>Responsável pela programação e level design.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="educacao">
+    <h2>Educação</h2>
+    <div class="item-educacao">
+      <h3>Engenharia de Software</h3>
+      <p>UTFPR | 2028</p>
+    </div>
+  </section>
+
+  <section class="contato">
+
+    <button id="btnAbrir">
+      Enviar informações de contato
+    </button>
+
+    <dialog id="modalContato">
+      <form>
+        <p>
+          <label for="nome">Nome Completo<br>
+            <input type="text" id="nome" name="nome" required>
+          </label>
+        </p>
+
+        <p>
+          <label for="instagram">Link para o Instagram<br>
+            <input type="url" id="instagram" name="instagram">
+          </label>
+        </p>
+
+        <p>
+          <label for="whatsapp">Número do WhatsApp<br>
+            <input type="tel" id="whatsapp" name="whatsapp" required>
+          </label>
+        </p>
+
+        <button type="submit" id="btnEnviar">Enviar</button>
+        <button type="button" id="btnFechar">Fechar</button>
+      </form>
+    </dialog>
+
+    <script>
+      const modal = document.getElementById("modalContato")
+      document.getElementById('btnAbrir').addEventListener('click', () => {
+        modal.showModal();
+      });
+      document.getElementById('btnFechar').addEventListener('click', () => {
+        modal.close();
+      });
+    </script>
+
+  </section>
+
+</body>
+
+</html>
